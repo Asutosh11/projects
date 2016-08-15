@@ -13,21 +13,31 @@ body
     opacity: 1;
     margin-top: 20px;
     margin-bottom: 20px;
-}   
+}
 
 
 
 .menu
 {
-    width: 600px;     
-    height: 70px;  
-     
+    width: 600px;
+    height: 70px;
+
     font-size: 1.4em;
 font-family: monospace;
 text-align:right;
 margin: 0 auto;
 
+}
 
+.menu2
+{
+    width: 900px;
+    height: 45px;
+
+    font-size: 1.4em;
+font-family: monospace;
+text-align:right;
+margin: 0 auto;
 
 }
 
@@ -41,7 +51,27 @@ a
 
 a:hover {
   color: #2f4e67 ;
-  
+
+}
+
+.boxtop
+{
+    width: 48%;
+    float: left;
+    height: 100px;
+   font-family: monospace;
+   font-size: 1.3em;
+
+
+    background-color: white;
+
+   border-radius: 50%;
+    behavior: url(PIE.htc);
+
+-webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+
 }
 
 
@@ -53,10 +83,10 @@ a:hover {
     height: 500px;
    font-family: monospace;
    font-size: 1.3em;
-   
-    
+
+
     background-color: white;
-    
+
    border-radius: 50%;
     behavior: url(PIE.htc);
 
@@ -73,10 +103,10 @@ box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
     height: 500px;
     font-family: monospace;
     margin: 0 auto;
-    
+
         background-color: white;
         font-size: 1.3em;
-       
+
          border-radius: 50%;
     behavior: url(PIE.htc);
 
@@ -93,10 +123,10 @@ box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
     height: 500px;
     font-family: monospace;
     margin: 0 auto;
-    
+
         background-color: white;
         font-size: 1.3em;
-       
+
          border-radius: 50%;
     behavior: url(PIE.htc);
 
@@ -109,19 +139,45 @@ box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
 
 
 .clic{
-    
+
     text-align: center;
     padding-top: 20px;
     font-family: monospace;
-    
-    
+
+
 }
 
 #footer{
     font-size: .8em;
-    
+
     margin: 0 auto;
     font-family: 'arial', sans-serif;
     width: 400px;
     text-align: center;
+}
+
+
+.title{
+  margin-top: -30px;
+  background-color: #ffffff;
+  height: 35px;
+  padding-top: 10px;
+
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+font-size: 1.4em;
+font-family: monospace;
+
+-webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+}
+
+
+.name{
+  height: 60px;
+  font-size: 1.4em;
+font-family: monospace;
 }
